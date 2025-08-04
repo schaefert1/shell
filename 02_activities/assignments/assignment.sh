@@ -54,7 +54,7 @@ find -type f -name "*ipadd*" -delete
 cd ..
 cd ..
 touch inventory.txt
-ls processed/ > inventory.txt
+ls processed/* > inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
